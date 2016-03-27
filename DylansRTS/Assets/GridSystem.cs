@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// New addition
 public class GridSystem : MonoBehaviour {
 
     public float cell_size = 2.0f;
