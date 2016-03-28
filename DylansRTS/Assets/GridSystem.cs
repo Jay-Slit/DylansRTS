@@ -16,8 +16,10 @@ public class GridSystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        transform.rotation = Quaternion.Euler(0, 0, 0);
+
         x = Mathf.Round(transform.position.x / cell_size) * cell_size;
         z = Mathf.Round(transform.position.z / cell_size) * cell_size;
-        transform.position = new Vector3(x, 5, z);
+        transform.position = new Vector3(x, 0, z);
     }
 }
