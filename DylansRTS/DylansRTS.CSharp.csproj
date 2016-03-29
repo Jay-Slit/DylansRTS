@@ -61,20 +61,22 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="RAINMetaform">
-      <HintPath>Assets\RAIN\RAINMetaform.dll</HintPath>
-    </Reference>
     <Reference Include="RAIN">
       <HintPath>Assets\RAIN\RAIN.dll</HintPath>
     </Reference>
+    <Reference Include="RAINMetaform">
+      <HintPath>Assets\RAIN\RAINMetaform.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Buildings\_Building Scripts\Available.cs" />
-    <Compile Include="Assets\Camera\Building.cs" />
-    <Compile Include="Assets\Camera\Manager.cs" />
-    <Compile Include="Assets\Camera\Placement.cs" />
-    <Compile Include="Assets\GridSystem.cs" />
     <Compile Include="Assets\Models\Environment\Procedural Tree Placement.cs" />
+    <Compile Include="Assets\Systems\Buildings\Available.cs" />
+    <Compile Include="Assets\Systems\Buildings\GridSystem.cs" />
+    <Compile Include="Assets\Systems\Camera\Building.cs" />
+    <Compile Include="Assets\Systems\Camera\CameraController.cs" />
+    <Compile Include="Assets\Systems\Camera\Manager.cs" />
+    <Compile Include="Assets\Systems\Camera\Placement.cs" />
+    <Compile Include="Assets\Systems\Options\PlayerPrefsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Models\Character Models\khpagf.txt" />
