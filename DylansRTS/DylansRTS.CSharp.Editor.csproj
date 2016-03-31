@@ -94,11 +94,8 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="RAINUpdater">
-      <HintPath>Assets\RAIN\Editor\RAINUpdater.dll</HintPath>
-    </Reference>
-    <Reference Include="RAINMetaformEditor">
-      <HintPath>Assets\RAIN\Editor\RAINMetaformEditor.dll</HintPath>
+    <Reference Include="RAIN">
+      <HintPath>Assets\RAIN\RAIN.dll</HintPath>
     </Reference>
     <Reference Include="RAINMetaform">
       <HintPath>Assets\RAIN\RAINMetaform.dll</HintPath>
@@ -106,14 +103,17 @@
     <Reference Include="AetherUnity">
       <HintPath>Assets\RAIN\Editor\AetherUnity.dll</HintPath>
     </Reference>
-    <Reference Include="RAIN">
-      <HintPath>Assets\RAIN\RAIN.dll</HintPath>
-    </Reference>
     <Reference Include="LegionRestModel">
       <HintPath>Assets\RAIN\Editor\LegionRestModel.dll</HintPath>
     </Reference>
     <Reference Include="RAINEditor">
       <HintPath>Assets\RAIN\Editor\RAINEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="RAINMetaformEditor">
+      <HintPath>Assets\RAIN\Editor\RAINMetaformEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="RAINUpdater">
+      <HintPath>Assets\RAIN\Editor\RAINUpdater.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +127,7 @@
     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\DecisionTemplate_CS.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Models\Character Models\Wizard\Placeholder.txt" />
     <None Include="Assets\Models\Character Models\khpagf.txt" />
     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />

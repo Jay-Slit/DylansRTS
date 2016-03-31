@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Models\Environment\Procedural Tree Placement.cs" />
+    <Compile Include="Assets\Systems\Basic AI\WorkerControl.cs" />
     <Compile Include="Assets\Systems\Buildings\Available.cs" />
     <Compile Include="Assets\Systems\Buildings\GridSystem.cs" />
     <Compile Include="Assets\Systems\Camera\Building.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Systems\Options\PlayerPrefsManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Models\Character Models\Wizard\Placeholder.txt" />
     <None Include="Assets\Models\Character Models\khpagf.txt" />
     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
